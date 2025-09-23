@@ -1,5 +1,4 @@
 <settings>
-
 <servers>
   <server>
     <id>nextwork-nextwork-devops-cicd</id>
@@ -23,4 +22,12 @@
   </profile>
 </profiles>
 
+<mirrors>
+  <mirror>
+    <id>nextwork-nextwork-devops-cicd</id>
+    <name>nextwork-nextwork-devops-cicd</name>
+    <url>https://nextwork-004058506875.d.codeartifact.ap-southeast-1.amazonaws.com/maven/nextwork-devops-cicd/</url>
+    <mirrorOf>*</mirrorOf>
+  </mirror>
+</mirrors>
 </settings>
